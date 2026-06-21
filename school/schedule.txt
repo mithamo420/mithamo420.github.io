@@ -1,0 +1,3 @@
+math 8:30
+science 4:20
+english 4:50 cat schedual.ttxt
