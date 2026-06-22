@@ -1,4 +1,3 @@
-
 html
 <!DOCTYPE html>
 <html>
@@ -11,29 +10,38 @@ html
       color: white;
       font-family: Arial;
       text-align: center;
-      padding: 50px 20px;
+      padding: 40px 20px;
       margin: 0;
     }
-    h1 { font-size: 36px; margin-bottom: 10px; }
-    .tagline { font-size: 20px; opacity: 0.9; margin-bottom: 40px; }
+    h1 { font-size: 32px; margin-bottom: 8px; }
+    .tagline { font-size: 18px; opacity: 0.9; margin-bottom: 30px; }
     .services {
       background: rgba(255,255,255,0.2);
-      padding: 30px;
+      padding: 25px;
       border-radius: 20px;
-      max-width: 400px;
-      margin: 0 auto 30px;
+      max-width: 420px;
+      margin: 0 auto 25px;
     }
-    .service { font-size: 22px; margin: 15px 0; }
-    .price { font-size: 18px; opacity: 0.9; }
+    h2 { margin-top: 0; margin-bottom: 20px; }
+    .service { 
+      font-size: 18px; 
+      margin: 10px 0; 
+      display: flex; 
+      justify-content: space-between;
+      border-bottom: 1px solid rgba(255,255,255,0.2);
+      padding-bottom: 6px;
+      text-align: left;
+    }
+    .price { font-size: 17px; font-weight: bold; }
     .btn {
       display: block;
-      margin: 15px auto;
-      padding: 15px 30px;
+      margin: 12px auto;
+      padding: 14px 25px;
       border-radius: 15px;
-      font-size: 20px;
+      font-size: 18px;
       font-weight: bold;
       text-decoration: none;
-      max-width: 280px;
+      max-width: 260px;
     }
     .call-btn {
       background: white;
@@ -51,8 +59,20 @@ html
   
   <div class="services">
     <h2>Our Services & Prices</h2>
-    <div class="service">Manicure</div>
-    <div class="price">KSh 500</div>
+    <div class="service">Manicure <span class="price">KSh 400</span></div>
+    <div class="service">Plain Gel <span class="price">KSh 400</span></div>
+    <div class="service">Tips Gel <span class="price">KSh 700</span></div>
+    <div class="service">Pedicure Plain <span class="price">KSh 500</span></div>
+    <div class="service">Pedicure + Gel <span class="price">KSh 800</span></div>
+    <div class="service">Sticokons <span class="price">KSh 500</span></div>
+    <div class="service">Acrylic <span class="price">KSh 3,000</span></div>
+    <div class="service">Builder Tips <span class="price">KSh 1,200</span></div>
+    <div class="service">Builder Gel Overlay <span class="price">KSh 1,000</span></div>
+    <div class="service">Gum Gel Overlay <span class="price">KSh 1,500</span></div>
+    <div class="service">Soak Off Tips <span class="price">KSh 100</span></div>
+    <div class="service">Soak Off Builder Gel <span class="price">KSh 150</span></div>
+    <div class="service">Soak Off Gum Gel <span class="price">KSh 200</span></div>
+    <div class="service">Ear Piercing <span class="price">KSh 300</span></div>
   </div>
   
   <a href="tel:+254716397341" class="btn call-btn">📞 Tap to Call</a>
