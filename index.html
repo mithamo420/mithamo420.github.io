@@ -1,36 +1,61 @@
+
+html
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Aura Petals Beauty Parlour - Kikuyu</title>
+  <title>Aura Petals Beauty Parlour & Spa</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    body { margin:0; font-family:Arial; background:#fff; }
-    .hero { background:linear-gradient(135deg,#f093fb 0%,#c471ed 100%); }
-    h1 { font-size:36px; margin:0 }
-    .tagline { font-size:18px; margin-top:10px }
-    .services { padding:40px 20px }
-    .service-box { background:white; margin:12px; padding:20px; }
-    .service-name { font-size:18px; font-weight:bold }
-    .price { color:#f5576c; font-size:20px; font-weight:bold }
-    .btn { background:#f5576c; color:white; padding:18px; }
-    .footer { background:#333; color:white; padding:20px; }
+    body {
+      background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+      color: white;
+      font-family: Arial;
+      text-align: center;
+      padding: 50px 20px;
+      margin: 0;
+    }
+    h1 { font-size: 36px; margin-bottom: 10px; }
+    .tagline { font-size: 20px; opacity: 0.9; margin-bottom: 40px; }
+    .services {
+      background: rgba(255,255,255,0.2);
+      padding: 30px;
+      border-radius: 20px;
+      max-width: 400px;
+      margin: 0 auto 30px;
+    }
+    .service { font-size: 22px; margin: 15px 0; }
+    .price { font-size: 18px; opacity: 0.9; }
+    .btn {
+      display: block;
+      margin: 15px auto;
+      padding: 15px 30px;
+      border-radius: 15px;
+      font-size: 20px;
+      font-weight: bold;
+      text-decoration: none;
+      max-width: 280px;
+    }
+    .call-btn {
+      background: white;
+      color: #f5576c;
+    }
+    .whatsapp-btn {
+      background: #25D366;
+      color: white;
+    }
   </style>
 </head>
 <body>
-  <div class="hero">
-    <h1>✨ Aura Petals</h1>
-    <p class="tagline">Beauty Parlour & Spa</p>
-    <p>Where Beauty Blooms</p>
-  </div>
+  <h1>✨ Aura Petals Beauty Parlour & Spa</h1>
+  <p class="tagline">Where Beauty Blooms</p>
+  
   <div class="services">
     <h2>Our Services & Prices</h2>
-    <div class="service-box">
-      <span class="service-name">Manicure</span>
-      <span class="price">KSh 500</span>
-    </div>
+    <div class="service">Manicure</div>
+    <div class="price">KSh 500</div>
   </div>
-  <div class="footer">
-    <p>Contact us: 0716397341</p>
-  </div>
+  
+  <a href="tel:+254716397341" class="btn call-btn">📞 Tap to Call</a>
+  <a href="https://wa.me/254716397341" class="btn whatsapp-btn">💬 Book on WhatsApp</a>
 </body>
 </html>
